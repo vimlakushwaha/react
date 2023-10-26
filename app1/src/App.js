@@ -4,29 +4,11 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    /* remove this content 
-    
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div> */
-    <>
-  <h1>hello world! </h1>
+    <> 
+ 
   <Nav/>
   </>
   );
 }
 
-export default App;
+export default App; //default is use to take fality to change the name of component this .. when we will import this fintion anywhere
